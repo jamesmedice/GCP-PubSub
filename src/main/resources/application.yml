@@ -1,0 +1,11 @@
+#set up properties
+server:
+    port: ${SERVER_PORT:8080}
+
+spring:
+    profiles:
+        active: gcp,mysql
+    jpa:
+        generate-ddl: true
+        hibernate.ddl-auto: update
+        show-sql: true
