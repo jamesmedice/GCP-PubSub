@@ -11,8 +11,6 @@ gcloud scheduler jobs create pubsub publisher-job --schedule="* * * * *" \
  gcloud scheduler jobs run publisher-job
 
 
-git clone https://github.com/GoogleCloudPlatform/java-docs-samples.git
-cd java-docs-samples/pubsub/streaming-analytics
 
 
 mvn compile exec:java \
